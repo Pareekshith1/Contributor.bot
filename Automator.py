@@ -44,8 +44,8 @@ while True:
 
                 
 
-                # repo branch changer
-                branch = "updater"
+                # repo main branch checker
+                branch = "main"
                 repo.git.checkout(branch)
                 
                 # adding the file for the commit
@@ -56,9 +56,9 @@ while True:
                 commit_message = f"Update no {j}"
                 repo.index.commit(commit_message)
 
-                # pushing the file into the sub branch {updater}
+                # pushing the file into the main branch 
                 # define the branch
-                sub_branch = "updater"
+                sub_branch = "main"
 
                 # setting up the origin
                 origin = repo.remotes.origin
