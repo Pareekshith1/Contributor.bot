@@ -36,7 +36,8 @@
 
 ###
 
-#### Author: Pareekshith.P  Github: Pareekshith1
+#### Author: Pareekshith.P  
+#### Github: Pareekshith1
 ###
 
 # <center>THANKYOU</center>
