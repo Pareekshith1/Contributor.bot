@@ -1,8 +1,8 @@
 
- new text 7
- new text 7
- new text 7
- new text 7
- new text 7
- new text 7
+ new text 6
+ new text 6
+ new text 6
+ new text 6
+ new text 6
+ new text 6
  new text 7
