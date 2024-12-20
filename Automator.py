@@ -1,3 +1,8 @@
+''' Author : Pareekshith1 {Pareekshith.P} '''
+''' a simple automation bot for increasing the contributions made in the github '''
+''' this bot will select the number of contributions to be made daily in a random manner '''
+''' just run the script and enjoy  '''
+
 # Importing the datetime module
 from datetime import datetime
 
@@ -28,14 +33,16 @@ while True:
             print(f"Contribution {j + 1} on {x}")
 
             try:
+                # Initialize the Git repository
+                repo_path = r"C:\Users\DELL\Desktop\Contributor.bot"  # Path to the repository
+                repo = Repo(repo_path)
+
                 # making some updatable changes to the text file
-                txt_file = r"C:\\Users\\DELL\\Desktop\\Contributor.bot\\updator.txt"
+                txt_file = os.path.join(repo_path, "updator.txt")
                 with open(txt_file, "a") as p:
                     p.write(f"\n new text {rand_no}")
 
-                # Initialize the Git repository
-                repo_path = r"C:\\Users\\DELL\\Desktop\\Contributor.bot"  # Path to the repository
-                repo = Repo(repo_path)
+                
 
                 # repo branch changer
                 branch = "updater"
