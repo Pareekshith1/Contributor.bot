@@ -4,3 +4,4 @@
  new text 7
  new text 7
  new text 7
+ new text 7
