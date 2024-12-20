@@ -3,3 +3,4 @@
  new text 3
  new text 3
  new text 6
+ new text 6
